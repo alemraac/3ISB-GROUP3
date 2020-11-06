@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-header-main">
+          <a class="header-logo" href="index.php">
+            <img src="GUHIT.png" alt="guhit logo">
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-login">
+          <!--
+          Here is the HTML login form.
+          Notice that the "method" is set to "post" because the data we send is sensitive data.
+          The "inputs" I decided to have in the form include username/e-mail and password. The user will be able to choose whether to login using e-mail or username.
+    
+          Also notice that using PHP, we can choose whether or not to show the login/signup form, or to show the logout form, if we are logged in or not. We do this based on SESSION variables which I explain in more detail in the login.inc.php file!
+          -->
+          <form>
+          <button type="submit" name="login-submit">Admin Login</button>
+          </form>
+    <nav class="sidenav">
+        <a href="#houses">House</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#Building">Building</a>
+    </nav>
+    </div>
+    </header>
+    
+    <table>
+        <tr>
+            <td><div class="gallery">
+                <a target="_blank" href="4.jpg">
+                  <img src="portfolio/4.jpg" alt="tv">
+                </a>
+                <div class="desc">description</div>
+              </div>
+            </td>
+            <td><div class="gallery">
+                <a target="_blank" href="2.jpg">
+                  <img src="portfolio/2.jpg" alt="bedroom1">
+                </a>
+                <div class="desc">description</div>
+              </div>
+            </td>
+            <td><div class="gallery">
+                <a target="_blank" href="3.jpg">
+                  <img src="portfolio/3.jpg" alt="dining1">
+                </a>
+                <div class="desc">description</div>
+              </div>
+            </td>
+        </tr>
+        <tr>            
+            <td><div class="gallery">
+                <a target="_blank" href="5.jpg">
+                  <img src="portfolio/5.jpg" alt="tv">
+                </a>
+                <div class="desc">description</div>
+              </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <a target="_blank" href="6.jpg">
+                      <img src="portfolio/6.jpg" alt="tv" width="600" height="400">
+                    </a>
+                    <div class="desc">description</div>
+                  </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <a target="_blank" href="7.jpg">
+                      <img src="portfolio/7.jpg" alt="tv" width="600" height="400">
+                    </a>
+                    <div class="desc">description</div>
+                  </div>
+            </td>
+        </tr>           
+    </table>
+    
+</body>
+</html>
